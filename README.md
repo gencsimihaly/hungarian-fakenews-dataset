@@ -9,6 +9,6 @@ legit.csv and fake.csv, both having four columns: [Urls, Title, Time, Article]
 - Time: publication date
 - Article: body text of the article
 
-legit_categories.json and fake_categories.json: categories/types of news articles
-key = domain name 
-values = category
+legit_categories.json and fake_categories.json: categories/types of news articles:
+
+key = domain name, values = category
