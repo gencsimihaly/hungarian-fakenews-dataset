@@ -1,10 +1,14 @@
 # hungarian-fakenews-dataset
-This repository contains a hungarian fakenews dataset.
+This repository contains a hungarian fake news dataset.
 
-The hungarian-fakenews-dataset.zip file contains four files:
+There are four files in hungarian-fakenews-dataset.zip:
 
-legit.csv and fake.csv, which contain four columns: [Urls, Title, Time, Article]
+legit.csv and fake.csv, both having four columns: [Urls, Title, Time, Article]
+- Urls: URL of the article
+- Title: title of the article
+- Time: publication date
+- Article: body text of the article
 
-legit_categories.json and fake_categories.json: key = domain name and values = category_name
-
-The dataset creation methods was writed in  article.
+legit_categories.json and fake_categories.json: categories/types of news articles
+key = domain name 
+values = category
